@@ -1,0 +1,30 @@
+{
+  "name": "itworks2020arjs",
+  "version": "1.0.0",
+  "description": "Ar.js demo for itWorks 2020",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbogretsov/itworks2020.git"
+  },
+  "keywords": [
+    "ar.js",
+    "itworks"
+  ],
+  "author": "v.bogretsov@itransition.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbogretsov/itworks2020/issues"
+  },
+  "homepage": "https://github.com/vbogretsov/itworks2020#readme"
+}
