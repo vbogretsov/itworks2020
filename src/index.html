@@ -15,13 +15,13 @@
     embedded
     arjs="sourceType: webcam; debugUIEnabled: true;"
   >
-    <a-marker-camera type="pattern" patternUrl="https://192.168.8.4/masters/pattern-pattern-marker-red.patt"></a-marker-camera>
+    <!-- <a-marker-camera type="pattern" url="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/markers/pattern-pattern-marker-red.patt"></a-marker-camera> -->
 
     <a-assets>
       <a-asset-item id="m" src="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/models/RLab-arrow.gltf" />
     </a-assets>
 
-    <a-marker id="m1" type="pattern" patternUrl="https://192.168.8.4/masters/pattern-pattern-marker-red.patt" >
+    <a-marker id="m1" preset="custom" type="pattern" url="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/markers/pattern-pattern-marker-red.patt" >
       <a-entity>
         <a-text
           value="Here!"
