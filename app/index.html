@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ar.js demo</title>
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+  <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+  <script src="/config.js"></script>
+  <script src="/script.js"></script>
+</head>
+<!-- Q1. Why set overflow: hidden here? -->
+<body style='margin: 0; overflow: hidden;'>
+  <!-- Q2. What means every property? -->
+  <a-scene
+    embedded
+    arjs="sourceType: webcam; debugUIEnabled: true; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
+  >
+
+    <a-assets>
+      <a-asset-item id="m" src="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/models/RLab-arrow.gltf" />
+    </a-assets>
+
+    <a-marker id="m0" type="barcode" value="0" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m0" type="barcode" value="0" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m1" type="barcode" value="1" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          value="HERE!"
+          color="blue"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m2" type="barcode" value="2" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m3" type="barcode" value="3" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m4" type="barcode" value="4" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m5" type="barcode" value="5" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m6" type="barcode" value="6" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m7" type="barcode" value="7" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m8" type="barcode" value="8" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m9" type="barcode" value="9" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m10" type="barcode" value="10" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m11" type="barcode" value="11" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m12" type="barcode" value="12" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m13" type="barcode" value="13" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m14" type="barcode" value="14" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m15" type="barcode" value="15" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          color="blue"
+          value="HERE!"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 90 90"
+          position="-1.5 0 0"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-entity camera />
+  </a-scene>
+</body>

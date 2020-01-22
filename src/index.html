@@ -7,34 +7,52 @@
   <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
   <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
   <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+  <script src="/script.js"></script>
 </head>
 <!-- Q1. Why set overflow: hidden here? -->
 <body style='margin: 0; overflow: hidden;'>
   <!-- Q2. What means every property? -->
   <a-scene
     embedded
-    arjs="sourceType: webcam; debugUIEnabled: true;"
+    arjs="sourceType: webcam; debugUIEnabled: true; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
   >
-    <!-- <a-marker-camera type="pattern" url="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/markers/pattern-pattern-marker-red.patt"></a-marker-camera> -->
 
     <a-assets>
       <a-asset-item id="m" src="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/models/RLab-arrow.gltf" />
     </a-assets>
 
-    <a-marker id="m1" preset="custom" type="pattern" url="https://raw.githubusercontent.com/vbogretsov/itworks2020/master/src/markers/pattern-pattern-marker.patt" >
-      <a-entity>
+    <a-marker id="m0" type="barcode" value="0" listenevents>
+      <a-entity position="0 0 0.7">
         <a-text
           value="Here!"
           color="blue"
           rotation="-90 0 0"
-          position="-1 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 -90 90"
+          position="1.5 0 0.7"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m1" type="barcode" value="1" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          value="Here!"
+          color="blue"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
           scale="2"
         ></a-text>
         <!-- right -->
         <a-entity
           gltf-model="#m"
           rotation="0 90 90"
-          position="-2 0 0"
+          position="-1.5 0 0"
           scale="2 1 1"
         ></a-entity>
         <!-- left -->
@@ -58,6 +76,42 @@
           position="-0.7 0 2.1"
           scale="2 1 1"
         ></a-entity> -->
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m2" type="barcode" value="2" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          value="Here!"
+          color="blue"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 0 90"
+          position="0.5 0 -1"
+          scale="2 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-marker>
+
+    <a-marker id="m3" type="barcode" value="3" listenevents>
+      <a-entity position="0 0 0.7">
+        <a-text
+          value="Here!"
+          color="blue"
+          rotation="-90 0 0"
+          position="-0.5 0 0"
+          scale="2"
+        ></a-text>
+        <a-entity
+          gltf-model="#m"
+          rotation="0 180 90"
+          position="-0.3 0 2.1"
+          scale="2 1 1"
+        ></a-entity>
       </a-entity>
     </a-marker>
 
