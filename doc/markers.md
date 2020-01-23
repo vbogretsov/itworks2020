@@ -24,3 +24,4 @@ JavaScript библиотека для построения приложений
 - It is also required to use remote urls for pattern resources, instead of relative urls
 
 [barcode generator](https://au.gmented.com/app/marker/marker.php)
+[qr generator](https://www.qrcode-monkey.com)

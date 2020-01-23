@@ -9,7 +9,7 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:15": {
+    "11:20": {
       text: {
         value: "Here 0!",
       },
@@ -29,13 +29,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 1!",
       },
       cursor: {
         rotation: "0 -90 90",
-        position: "1.1 0 0.7",
+        position: "1.5 0 0.7",
       },
     },
   },
@@ -49,13 +49,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 2!",
       },
       cursor: {
         rotation: "0 0 90",
-        position: "0 0 -1",
+        position: "0.5 0 -1",
       },
     },
   },
@@ -69,13 +69,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 3!",
       },
       cursor: {
         rotation: "0 180 90",
-        position: "-0.7 0 2.1",
+        position: "-0.2 0 2.1",
       },
     },
   },
@@ -89,13 +89,13 @@ CONFIG = {
         position: "1.5 0 0.7",
       },
     },
-    "19:15": {
+    "11:20": {
       text: {
         value: "Here 4!",
       },
       cursor: {
         rotation: "0 -90 90",
-        position: "1.1 0 0.7",
+        position: "1.5 0 0.7",
       },
     },
   },
@@ -109,13 +109,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 5!",
       },
       cursor: {
         rotation: "0 0 90",
-        position: "0 0 -1",
+        position: "0.5 0 -1",
       },
     },
   },
@@ -129,13 +129,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 6!",
       },
       cursor: {
         rotation: "0 180 90",
-        position: "-0.7 0 2.1",
+        position: "-0.2 0 2.1",
       },
     },
   },
@@ -149,7 +149,7 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 7!",
       },
@@ -169,13 +169,13 @@ CONFIG = {
         position: "1.5 0 0.7",
       },
     },
-    "19:15": {
+    "11:20": {
       text: {
         value: "Here 8!",
       },
       cursor: {
         rotation: "0 0 90",
-        position: "0 0 -1",
+        position: "0.5 0 -1",
       },
     },
   },
@@ -189,13 +189,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 9!",
       },
       cursor: {
         rotation: "0 180 90",
-        position: "-0.7 0 2.1",
+        position: "-0.2 0 2.1",
       },
     },
   },
@@ -209,7 +209,7 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 10!",
       },
@@ -229,13 +229,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 11!",
       },
       cursor: {
         rotation: "0 -90 90",
-        position: "1.1 0 0.7",
+        position: "1.5 0 0.7",
       },
     },
   },
@@ -249,13 +249,13 @@ CONFIG = {
         position: "1.5 0 0.7",
       },
     },
-    "19:15": {
+    "11:20": {
       text: {
         value: "Here 12!",
       },
       cursor: {
         rotation: "0 180 90",
-        position: "-0.7 0 2.1",
+        position: "-0.2 0 2.1",
       },
     },
   },
@@ -269,7 +269,7 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 13!",
       },
@@ -289,13 +289,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 14!",
       },
       cursor: {
         rotation: "0 -90 90",
-        position: "1.1 0 0.7",
+        position: "1.5 0 0.7",
       },
     },
   },
@@ -309,13 +309,13 @@ CONFIG = {
         position: "-1.5 0 0",
       },
     },
-    "19:20": {
+    "11:20": {
       text: {
         value: "Here 15!",
       },
       cursor: {
         rotation: "0 0 90",
-        position: "0 0 -1",
+        position: "0.5 0 -1",
       },
     },
   },
